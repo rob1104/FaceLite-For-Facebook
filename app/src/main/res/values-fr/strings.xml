@@ -1,0 +1,88 @@
+<!--
+SlimSocial for Facebook est une application «Open Source» créée par Leonardo Rignanese
+ GNU GENERAL PUBLIC LICENSE  Version 2, June 1991
+-->
+<resources>
+
+    <!-- Traduction faite par: Leandro Coelho aka minimaster4734 -->
+
+    <!--menu string-->
+    <string name="refresh">Rafraîchir</string>
+    <string name="openInBrowser">Ouvrir sur le navigateur</string>
+    <string name="settings">Paramètres</string>
+    <string name="share">Partager l\'application</string>
+    <!--end menu string-->
+
+    <!--settings-->
+    <string name="prefCat_fb_settings_title">Paramètres sur Facebook</string>
+    <string name="prefCat_app_settings_title">Paramètres sur l\'application</string>
+    <string name="prefCat_app_information_title">Informations sur l\'application</string>
+    <string name="title_recentNewsFirst">Montrer premièrement les nouvelles plus récentes</string>
+    <string name="summary_recentNewsFirst">Au lieu de les nouvelles plus importantes </string>
+    <string name="title_fixedBar">Barre fixe</string>
+    <string name="summary_fixedBar"> La barre bleue restera fixe en haut.</string>
+    <string name="title_blackTheme">Thème noir</string>
+    <string name="summary_blackTheme">Le fond será noir et le texte será blanc. (Bon pour les écrans AMOLED)</string>
+    <string name="title_hideSponsoredPosts">Ne pas montrer des publications sponsorisées</string>
+    <string name="summary_hideSponsoredPosts">Il n\'y aura pas des publications sponsorisées!</string>
+    <string name="title_downloadImages">Économiser donnés (Il faut redémarrer l\'application)</string>
+    <string name="summary_downloadImages">Les images non serons pas chargées</string>
+    <string name="title_selectTheme">Choisissez un thème</string>
+    <string name="summary_selectTheme"> Choisissez votre thème préféré</string>
+    <string name="version">Version</string>
+    <string name="credits">Crédits</string>
+    <string name="prefCat_otherCredits_title">Autres</string>
+    <string name="prefCat_developersCredits_title">Développeurs</string>
+    <string name="summary_LeonardoRignanese">Créateur et développeur de l\'application</string>
+    <string name="prefCat_translatorsCredits_title">Traducteurs</string>
+    <string name="prefCat_designersCredits_title">Designers</string>
+    <string name="donate">Donation</string>
+    <string name="donateToContribute">J\'ai décidé de faire l\'application gratuitement. Pouvez-vous payer moi un café?</string>
+    <!--end settings-->
+
+    <!--page error-->
+    <string name="titleNoConnection">Ops, il y a eu un problème!</string>
+    <string name="descriptionNoConnection">Vérifiez votre connexion et essayez de nouveau.</string>
+    <string name="awards">Cette application est «Open Source»</string>
+    <!--end page error-->
+
+    <!--other-->
+    <string name="thanks">Merci!</string>
+    <string name="downloadOrShareWithBrowser">Vous pouvez sauvegarder ou partager cette image en ouvrant le navigateur.</string>
+    <string name="shareThisLink">Partager cet lien</string>
+    <string name="chooseAnImage">Choisissez une image</string>
+    <string name="summary_FaceSlim">Sans eux, il me serais pas possible d\'ajouter quelques fictions utiles. Si vous êtes un développeurs, vous devez regarder leurs travails brillants!</string>
+    <string name="summary_lRemainl">Créateur du magnifique logo</string>
+    <string name="exit">Sortir</string>
+    <string name="downloadThisApp">Sauvegardez SlimSocial for Facebook: \n https://play.google.com/store/apps/details?id=it.rignanese.leo.slimfacebook</string>
+    <string name="noPersonalInformationAreShared">Aucune information personnel ou privée sur toi est collectée ou transmit par cette application!</string>
+
+    <!--end other-->
+
+    <!-- PLAY STORE PAGE
+
+DESCRIPTION:
+Avec seulement 700KB, vous pouvez accéder au Facebook (en sa version web)
+
+Description complète:
+AVERTISSEMENT: Cette application peut ne pas convenir à ceux qui utilisent Facebook régulièrement.
+
+Pourquoi devrais-je télécharger SlimSocial for Facebook?
+- Il est léger: il pèse moins de 1 Mo;
+- Il a un design simple et moderne: il y a seulement ce que vous avez besoin;
+- Il est «Open Source» (code source ouverte): le code de cette application est sur GitHub, vous pouvez vérifier l'authenticité de l'application et contribuer à son développement.
+- Il est gratuit et sans publicité;
+- Il n'est pas invasif;
+- Il respecte votre donnés privée: cette application ne nécessite pas de permis spéciaux. Facebook n'aura pas l'accès à les données de votre téléphone sans votre consentement.
+
+L'application est en cours de développement, de sorte qu'il ne fonctionne toujours pas:
+- Notifications;
+
+Lien vers GitHub
+https://github.com/rignaneseleo/SlimSocial-for-Facebook
+
+*** Cette application n'est pas une application officielle du Facebook ***
+C'est un projet visant à faciliter la vie des personnes. Cette application charge la version mobile du site officiel. Tout le crédit va à l'équipe de Facebook. L'application est gratuite pour tous, sans aucune annonce.
+-->
+
+</resources>

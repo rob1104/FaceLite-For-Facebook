@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="prefCat_key_fb_settings"
+        android:title="@string/prefCat_fb_settings_title">
+
+        <!--Set the homepage news order: recent or popular -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+
+            android:key="pref_recentNewsFirst"
+            android:summary="@string/summary_recentNewsFirst"
+            android:title="@string/title_recentNewsFirst"/>
+
+        <!--Fixed bar-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+
+            android:key="pref_fixedBar"
+            android:summary="@string/summary_fixedBar"
+            android:title="@string/title_fixedBar"/>
+
+        <!--Black theme -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+
+            android:key="pref_blackTheme"
+            android:summary="@string/summary_blackTheme"
+            android:title="@string/title_blackTheme"/>
+
+        <!--Hide sponsored posts -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+
+            android:key="pref_hideSponsoredPosts"
+            android:summary="@string/summary_hideSponsoredPosts"
+            android:title="@string/title_hideSponsoredPosts"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefCat_key_app_settings"
+        android:title="@string/prefCat_app_settings_title">
+
+        <!--Set the saving data -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+
+            android:key="pref_doNotDownloadImages"
+            android:summary="@string/summary_downloadImages"
+            android:title="@string/title_downloadImages"/>
+
+        <!--Allow Geolocation -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+
+            android:key="pref_allowGeolocation"
+            android:summary="@string/summary_allowGeolocation"
+            android:title="@string/title_allowGeolocation"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefCat_key_app_information"
+        android:title="@string/prefCat_app_information_title">
+        <PreferenceScreen
+            android:key="pref_noPersonalInformationAreShared"
+            android:summary="@string/noPersonalInformationAreShared">
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="pref_key_donate"
+            android:summary="@string/donateToContribute"
+            android:title="@string/donate">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2WDADFB6CKWFU"/>
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="pref_credits"
+            android:title="@string/credits">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="net.bluecarrot.lite.ShowCreditsActivity"
+                android:targetPackage="net.bluecarrot.lite"/>
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="pref_key_version"
+            android:title="@string/version">
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen><!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/xml/preferences.xml -->

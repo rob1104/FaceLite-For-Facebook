@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-hi/values-hi.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"मुख्यपृष्ठ पर नेविगेट करें"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ऊपर नेविगेट करें"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"अधिक विकल्प"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"पूर्ण"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"कोई एप्‍लिकेशन चुनें"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"बंद"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"चालू"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"खोजा जा रहा है…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"क्‍वेरी साफ़ करें"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"खोज क्वेरी"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ध्वनि खोज"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"इसके द्वारा साझा करें"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s के साथ साझा करें"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"संक्षिप्त करें"</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-hi/strings.xml -->
+    <eat-comment/>
+    <string name="awards">यह एक  ओपन  सोर्स एप  है  </string>
+    <string name="chooseAnImage">एक छवि का चयन  करे </string>
+    <string name="credits">क्रेडिट्स</string>
+    <string name="descriptionNoConnection">नेटवर्क कनेक्शन की जाँच करें और  रिफ्रेश   करें </string>
+    <string name="downloadInstruction">SlimFacebook डाउनलोड करने के लिए आप इस साइट को  :\n - खोलें  https://play.google.com/store/apps/details?id=net.bluecarrot.lite \n - Login in Google (if you aren\'t already logged)\n - Push \"Become a tester\"\n - Open this with the Play Store App: https://play.google.com/store/apps/details?id=it.rignanese.leo.slimfacebook</string>
+    <string name="downloadOrShareWithBrowser">ब्राउज़र के माध्यम से खुलने आप डाउनलोड या इस छवि को शेयर  कर सकते हैं</string>
+    <string name="downloadThisApp">डाउनलोड  SlimSocial for Facebook: \n https://play.google.com/store/apps/details?id=it.rignanese.leo.slimfacebook</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="openInBrowser">ब्राउज़र का उपयोग कर खोलें</string>
+    <string name="prefCat_app_information_title">एप इनफार्मेशन </string>
+    <string name="prefCat_app_settings_title">एप सेटिंग्स </string>
+    <string name="prefCat_designersCredits_title">डिजाइनरस</string>
+    <string name="prefCat_developersCredits_title">डेवलपर्स </string>
+    <string name="prefCat_fb_settings_title">फेसबुक  सेटिंग्स </string>
+    <string name="prefCat_otherCredits_title">अन्य</string>
+    <string name="prefCat_translatorsCredits_title">अनुवादक</string>
+    <string name="refresh">रिफ्रेश </string>
+    <string name="settings">सेटिंग्स </string>
+    <string name="share">इस एप को शेयर करे</string>
+    <string name="shareThisLink">इस लिंक को शेयर  करे </string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-hi/values-hi.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-hi/strings.xml -->
+    <eat-comment/>
+    <string name="summary_FaceSlim">उनके बिना, मैं कुछ आकर्षक फंक्शन्स  नहीं बना  पाता . यदि आप एक डेवलपर हैं, आप को  उन भी मेहनत देखना चाहिए!</string>
+    <string name="summary_LeonardoRignanese"> क्रिएटर  और  एप्लिकेशन के डेवलपर</string>
+    <string name="summary_downloadImages">छवियों को डाउनलोड न करें</string>
+    <string name="summary_lRemainl">इस शानदार लोगो के क्रिएटर </string>
+    <string name="summary_recentNewsFirst">बजाय शीर्ष कहानियों की</string>
+    <string name="summary_selectTheme">अपने पसंदीदा थीम  का चयन </string>
+    <string name="thanks">धन्यवाद !</string>
+    <string name="titleNoConnection">ऑप्स , वहाँ एक समस्या है !</string>
+    <string name="title_downloadImages">सेव  डाटा ( रिबूट की जरूरत है)</string>
+    <string name="title_recentNewsFirst"> सबसे हाल ही के  न्यूज़  फीड  दिखाएं</string>
+    <string name="title_selectTheme">थीम का चयन करें</string>
+    <string name="version">संस्करण</string>
+</resources>

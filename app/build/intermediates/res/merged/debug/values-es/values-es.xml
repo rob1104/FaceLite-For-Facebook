@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"SÍ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="awards">Esta es una aplicación «Open Source»</string>
+    <string name="chooseAnImage"> Elige una imagen</string>
+    <string name="credits">Créditos</string>
+    <string name="descriptionNoConnection">Compruebe su conexión de red e inténtelo de nuevo</string>
+    <string name="donate">Donación</string>
+    <string name="donateToContribute">Decidí hacer la aplicación gratis. ¿Podrías pagarme un café?</string>
+    <string name="downloadOrShareWithBrowser">Puedes descargar o compartir esta imagen abriendo el navegador.</string>
+    <string name="downloadThisApp">Descargues SlimSocial for Facebook: \n https://play.google.com/store/apps/details?id=net.bluecarrot.lite</string>
+    <string name="exit">Salir</string>
+    <string name="noPersonalInformationAreShared">¡Ninguna información personal o privada a cerca de ti es recogida o transmitida por esta aplicación!</string>
+    <string name="openInBrowser">Abrir en el navegador</string>
+    <string name="prefCat_app_information_title">Informaciones de la aplicación</string>
+    <string name="prefCat_app_settings_title">Ajustes de la aplicación</string>
+    <string name="prefCat_designersCredits_title">Diseñadores</string>
+    <string name="prefCat_developersCredits_title">Desarrolladores</string>
+    <string name="prefCat_fb_settings_title">Ajustes del Facebook</string>
+    <string name="prefCat_otherCredits_title">Otros</string>
+    <string name="prefCat_translatorsCredits_title">Traductores</string>
+    <string name="refresh">Actualizar</string>
+    <string name="settings">Ajustes</string>
+    <string name="share">Compartir la aplicación</string>
+    <string name="shareThisLink">Compartir este enlace</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="summary_FaceSlim">Sin ellos, no sería posible añadir algunas buenas funciones. Si eres un desarrollador, ¡tienes que ver sus trabajos geniales!</string>
+    <string name="summary_LeonardoRignanese">Creador y desarrollador del aplicativo</string>
+    <string name="summary_blackTheme">El fondo será negro y el texto será blanco. (Bueno para pantallas AMOLED)</string>
+    <string name="summary_downloadImages">No descarga imágenes</string>
+    <string name="summary_fixedBar"> La barra azul permanecerá fija en la parte superior.</string>
+    <string name="summary_hideSponsoredPosts">¡No serán exibidas publicaciones patrocinadas!</string>
+    <string name="summary_lRemainl">Creador del magnifico logotipo</string>
+    <string name="summary_recentNewsFirst">En vez de las noticias más importantes</string>
+    <string name="summary_selectTheme">Elige tu tema favorito</string>
+    <string name="thanks">¡Gracias!</string>
+    <string name="titleNoConnection">¡Ops, hubo un problema!</string>
+    <string name="title_blackTheme">Tema oscuro</string>
+    <string name="title_downloadImages">Economizar datos (requiere reinicio)</string>
+    <string name="title_fixedBar">Barra fija</string>
+    <string name="title_hideSponsoredPosts">No mostrar publicaciones patrocinadas</string>
+    <string name="title_recentNewsFirst">Mostrar las noticias más recientes primero</string>
+    <string name="title_selectTheme">Seleccionar un tema</string>
+    <string name="version">Versión</string>
+</resources>

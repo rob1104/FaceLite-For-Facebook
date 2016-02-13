@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="awards">Diese App ist Open-Source.</string>
+    <string name="descriptionNoConnection">Überprüfe Deine Verbindung und versuche es erneut.</string>
+    <string name="downloadInstruction">Du kannst SlimFacebook hier herunterladen:\n - Öffne https://play.google.com/store/apps/details?id=net.bluecarrot.lite \n - Melde Dich mit deinem Google-Konto an (falls noch nicht geschehen)\n - Drücke \"Tester werden\"\n - Öffne dies mit der Play Store-App: https://play.google.com/store/apps/details?id=it.rignanese.leo.slimfacebook</string>
+    <string name="downloadOrShareWithBrowser">Mithilfe des Browsers kannst Du das Bild ansehen und teilen.</string>
+    <string name="information">Information</string>
+    <string name="openInBrowser">Im Browser öffnen</string>
+    <string name="prefCat_app_information_title">App-Information</string>
+    <string name="prefCat_app_settings_title">App-Einstellungen</string>
+    <string name="prefCat_fb_settings_title">Facebook-Einstellungen</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="settings">Einstellungen</string>
+    <string name="share">Teile diese App</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="summary_recentNewsFirst">Statt Top-Stories</string>
+    <string name="summary_selectTheme">Wähle dein bevorzugtes Design</string>
+    <string name="thanks">Danke!</string>
+    <string name="titleNoConnection">Ups, wir haben ein Problem!</string>
+    <string name="title_recentNewsFirst">Sortiere die Neuigkeiten nach Relevanz</string>
+    <string name="title_selectTheme">Theme auswählen</string>
+    <string name="version">Version</string>
+</resources>

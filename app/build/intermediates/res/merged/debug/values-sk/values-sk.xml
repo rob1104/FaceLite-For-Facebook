@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-sk/arrays.xml -->
+    <eat-comment/>
+    <string-array name="listThemes">
+        <item>SlimFacebook</item>
+        <item>Tmavá téma</item>
+        <item>Svetlá téma</item>
+    </string-array>
+    <string-array name="listValuesThemes">
+        <item>2131361965</item>        <!-- code of StandardTheme -->
+        <item>2131361966</item>        <!-- code of DarkTheme -->
+        <item>2131361967</item>        <!-- code of LightTheme -->
+    </string-array>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-sk/values-sk.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Prejsť na plochu"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Prejsť hore"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Ďalšie možnosti"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobraziť všetko"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Zvoľte aplikáciu"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"VYP."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ZAP."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Vyhľadať…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Vymazať dopyt"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Vyhľadávací dopyt"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Hľadať"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Odoslať dopyt"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hlasové vyhľadávanie"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Zdieľať pomocou"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Zdieľať pomocou %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Zbaliť"</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="awards">Toto je Open Source aplikácia.</string>
+    <string name="chooseAnImage">Zvoľte obrázok</string>
+    <string name="credits">Zásluhy</string>
+    <string name="descriptionNoConnection">Skontrolujte pripojenie a obnovte.</string>
+    <string name="donate">Podporiť</string>
+    <string name="donateToContribute">Robím to zadarmo, ale môžete mi kúpiť kávu.</string>
+    <string name="downloadInstruction">Pre stiahnutie SlimSocial pre Facebook musíte:\n - Otvoriť https://play.google.com/store/apps/details?id=net.bluecarrot.lite \n - Prihlásiť sa na Google účtet (ak už nie ste)\n - Kliknite na \"Chcem sa stať testerom\"\n - Otvoriť v aplikácii Obchod Play adresu: https://play.google.com/store/apps/details?id=it.rignanese.leo.slimfacebook</string>
+    <string name="downloadOrShareWithBrowser">Otvorením prehliadača môžete uložiť alebo zdieľať tento obrázok.</string>
+    <string name="downloadThisApp">Stiahnuť SlimSocial pre Facebook: \n https://play.google.com/store/apps/details?id=it.rignanese.leo.slimfacebook</string>
+    <string name="exit">Ukončiť</string>
+    <string name="noPersonalInformationAreShared">Táto aplikácia nezbiera ani nepreposiela žiadne osobné alebo súkromné informácie o vás alebo vašom zariadení!</string>
+    <string name="openInBrowser">Otvoriť v prehliadači</string>
+    <string name="prefCat_app_information_title">Informácie o aplikácii</string>
+    <string name="prefCat_app_settings_title">Nastavenia aplikácie</string>
+    <string name="prefCat_designersCredits_title">Dizajnéri</string>
+    <string name="prefCat_developersCredits_title">Vývojári</string>
+    <string name="prefCat_fb_settings_title">Nastavenia Facebooku</string>
+    <string name="prefCat_otherCredits_title">Iné</string>
+    <string name="prefCat_translatorsCredits_title">Prekladatelia</string>
+    <string name="refresh">Obnoviť</string>
+    <string name="settings">Nastavenia</string>
+    <string name="share">Zdieľať aplikáciu</string>
+    <string name="shareThisLink">Zdieľať odkaz</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-sk/values-sk.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="summary_FaceSlim">Bez nich, by som nemohol pridať niektoré zaujímavé funkcie. Ak ste vývojár, musíte vidieť ich skvelú prácu!</string>
+    <string name="summary_LeonardoRignanese">Tvorca a vývojár aplikácie</string>
+    <string name="summary_blackTheme">Pozadie bude čierne a text biely. (Dobré pre AMOLED displeje)</string>
+    <string name="summary_downloadImages">Nenačítavať obrázky</string>
+    <string name="summary_fixedBar">Modrá lišta na vrchu bude stále zobrazená.</string>
+    <string name="summary_hideSponsoredPosts">Sponzorované príspevky sa viac nezobrazia!</string>
+    <string name="summary_lRemainl">Tvorca veľkolepého loga</string>
+    <string name="summary_recentNewsFirst">namiesto od top príbehov</string>
+    <string name="summary_selectTheme">zvoľte si vašu obľúbenú tému</string>
+    <string name="thanks">Ďakujem!</string>
+    <string name="titleNoConnection">Vyskytol sa problém!</string>
+    <string name="title_blackTheme">Tmavá téma</string>
+    <string name="title_downloadImages">Šetriť dáta (vyžaduje reštart)</string>
+    <string name="title_fixedBar">Pevná lišta</string>
+    <string name="title_hideSponsoredPosts">Nezobrazovať sponzorované príspevky</string>
+    <string name="title_recentNewsFirst">Zoradiť novinky od najnovších</string>
+    <string name="title_selectTheme">Zvoľte tému</string>
+    <string name="version">Verzia</string>
+</resources>
