@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-v21/values-v21.xml -->
+    <!-- From: file:/D:/Documentos/Desarrollo%20Android/FaceLite-For-Facebook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -242,7 +242,7 @@
     </style>
     <style name="Platform.ThemeOverlay.AppCompat.Dark"/>
     <style name="Platform.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/C:/Users/Robbie/Desktop/SlimSocial-for-Facebook-master/SlimFacebook/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/D:/Documentos/Desarrollo%20Android/FaceLite-For-Facebook/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="SlimFacebookTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/blueSlimFacebookTheme</item>
@@ -250,4 +250,7 @@
         <item name="colorAccent">@color/blueSlimFacebookTheme</item>
         <item name="android:navigationBarColor">?android:attr/colorPrimaryDark</item>
     </style>
+    <!-- From: file:/D:/Documentos/Desarrollo%20Android/FaceLite-For-Facebook/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/res/values-v21/appinvite_styles.xml -->
+    <eat-comment/>
+    <style name="Theme.AppInvite.Preview.Base" parent="@android:style/Theme.Material.Light.DialogWhenLarge.NoActionBar"/>
 </resources>

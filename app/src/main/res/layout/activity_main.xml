@@ -1,18 +1,31 @@
 <!--
 SlimSocial for Facebook is an Open Source app realized by Leonardo Rignanese
  GNU GENERAL PUBLIC LICENSE  Version 2, June 1991
--->
-
-<android.support.v4.widget.SwipeRefreshLayout
-    android:id="@+id/swipe_container"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+--><LinearLayout
+    android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_weight="11"
+        android:layout_height="0dp">
 
-    <WebView
-        android:id="@+id/webView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_gravity="center"/>
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-</android.support.v4.widget.SwipeRefreshLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <com.adsdk.sdk.waterfall.Banner
+        android:id="@+id/banner"
+        android:layout_weight="1"
+        android:layout_below="@id/swipe_container"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        />
+</LinearLayout>

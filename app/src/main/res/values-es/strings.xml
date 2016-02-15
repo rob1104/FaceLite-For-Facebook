@@ -14,6 +14,10 @@ SlimSocial for Facebook es una aplicación «Open Source» creada por Leonardo R
     <!--end menu string-->
 
     <!--settings-->
+
+    <string name="summary_allowGeolocation">Facebook podrá acceder a tu posición geográfica</string>
+    <string name="title_allowGeolocation">Permitir uso del GPS</string>
+
     <string name="prefCat_fb_settings_title">Ajustes del Facebook</string>
     <string name="prefCat_app_settings_title">Ajustes de la aplicación</string>
     <string name="prefCat_app_information_title">Informaciones de la aplicación</string>
@@ -33,11 +37,12 @@ SlimSocial for Facebook es una aplicación «Open Source» creada por Leonardo R
     <string name="credits">Créditos</string>
     <string name="prefCat_otherCredits_title">Otros</string>
     <string name="prefCat_developersCredits_title">Desarrolladores</string>
-    <string name="summary_LeonardoRignanese">Creador y desarrollador del aplicativo</string>
+    <string name="summary_LeonardoRignanese">Creador y desarrolladorde la App</string>
     <string name="prefCat_translatorsCredits_title">Traductores</string>
     <string name="prefCat_designersCredits_title">Diseñadores</string>
     <string name="donate">Donación</string>
-    <string name="donateToContribute">Decidí hacer la aplicación gratis. ¿Podrías pagarme un café?</string>
+    <string name="donateToContribute">Decidí hacer la aplicación gratis. ¿Podrías pagarme un café? Al donar, enviame un correo y quito los anuncios de tu app para que la disfrutes
+        a pantalla completa.</string>
     <!--end settings-->
 
     <!--page error-->
@@ -52,7 +57,7 @@ SlimSocial for Facebook es una aplicación «Open Source» creada por Leonardo R
     <string name="shareThisLink">Compartir este enlace</string>
     <string name="chooseAnImage"> Elige una imagen</string>
     <string name="summary_FaceSlim">Sin ellos, no sería posible añadir algunas buenas funciones. Si eres un desarrollador, ¡tienes que ver sus trabajos geniales!</string>
-    <string name="summary_lRemainl">Creador del magnifico logotipo</string>
+    <string name="summary_lRemainl">Creador del logotipo</string>
     <string name="exit">Salir</string>
     <string name="downloadThisApp">Descargues SlimSocial for Facebook: \n https://play.google.com/store/apps/details?id=net.bluecarrot.lite</string>
     <string name="noPersonalInformationAreShared">¡Ninguna información personal o privada a cerca de ti es recogida o transmitida por esta aplicación!</string>

@@ -25,10 +25,7 @@
     <PreferenceCategory
         android:key="prefCat_key_designersCredits"
         android:title="@string/prefCat_designersCredits_title">
-        <PreferenceScreen
-            android:key="pref_lRemainl"
-            android:summary="@string/summary_lRemainl"
-            android:title="lRemainl"/>
+
         <PreferenceScreen
             android:key="pref_Pharetra"
             android:summary="@string/summary_Pharetra"
@@ -38,13 +35,14 @@
     <PreferenceCategory
         android:key="prefCat_key_translatorsCredits"
         android:title="@string/prefCat_translatorsCredits_title">
+
         <PreferenceScreen
             android:key="pref_Minions_Army"
             android:summary="Indonesian"
             android:title="Minions_Army"/>
         <PreferenceScreen
             android:key="pref_minimaster4734"
-            android:summary="French, Spanish, Portuguese"
+            android:summary="French, Portuguese"
             android:title="minimaster4734"/>
         <PreferenceScreen
             android:key="pref_xdevs23"

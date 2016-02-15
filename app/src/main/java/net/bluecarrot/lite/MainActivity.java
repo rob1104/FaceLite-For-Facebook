@@ -24,6 +24,7 @@ import android.preference.PreferenceManager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -40,6 +41,8 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
 
+import com.adsdk.sdk.waterfall.Banner;
+
 import java.io.File;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -49,7 +52,13 @@ import java.util.List;
 import net.bluecarrot.lite.R;
 
 
+import org.json.JSONArray;
+
+
 public class MainActivity extends AppCompatActivity {
+
+    private Banner banner;
+    private String appHash = "3e1014b9d3482030ee69797201a34da9";
 
     SwipeRefreshLayout swipeRefreshLayout;//the layout that allows the swipe refresh
 
@@ -91,6 +100,27 @@ public class MainActivity extends AppCompatActivity {
         }
 
         setContentView(R.layout.activity_main);//load the layout
+
+        //**MOBFOX***//
+        Banner banner = (Banner)findViewById(R.id.banner);
+        banner.setPublicationId(appHash);
+
+//optional - set listener to get notified when ad is loaded
+        banner.setWaterfallBannerListener(new Banner.Listener() {
+
+            @Override
+            public void onAdLoaded() {
+                Log.d("waterfall", "ad loaded");
+            }
+
+            @Override
+            public void onAdNotFound() {
+                Log.d("waterfall", "d not found");
+            }
+        });
+
+//load next ad
+        banner.loadAd();
 
 
         // setup the refresh layout
@@ -715,6 +745,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
+
 
 
 }
