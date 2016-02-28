@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MobFox-Android-SDK-Core-1.2.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/MobFox-Android-SDK-Core-1.2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
