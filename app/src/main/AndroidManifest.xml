@@ -135,6 +135,11 @@ SlimSocial for Facebook is an Open Source app realized by Leonardo Rignanese
         <meta-data
             android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
             android:resource="@dimen/app_minimumsize_h"/>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

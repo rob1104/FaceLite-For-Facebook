@@ -17,13 +17,11 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
-import android.os.Handler;
-import android.os.Message;
-import android.os.Parcelable;
+import android.os.*;
+import android.os.Process;
 import android.preference.PreferenceManager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -37,11 +35,13 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 import android.app.Activity;
-import android.os.Build;
-import android.os.Environment;
 import android.provider.MediaStore;
 
-import com.adsdk.sdk.waterfall.Banner;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.mobfox.sdk.Banner;
+import com.mobfox.sdk.BannerListener;
 
 import java.io.File;
 import java.io.IOException;
@@ -57,7 +57,7 @@ import org.json.JSONArray;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Banner banner;
+    private com.mobfox.sdk.Banner banner;
     private String appHash = "3e1014b9d3482030ee69797201a34da9";
 
     SwipeRefreshLayout swipeRefreshLayout;//the layout that allows the swipe refresh
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     private Menu optionsMenu;//contains the main menu
 
     private SharedPreferences savedPreferences;//contains all the values of saved preferences
-	
+
     boolean noConnectionError = false;//flag: is true if there is a connection error and it should be reload not the error page but the last useful
     boolean swipeRefresh = false;
 
@@ -84,6 +84,11 @@ public class MainActivity extends AppCompatActivity {
 
     // create link handler (long clicked links)
     private final MyHandler linkHandler = new MyHandler(this);
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,25 +107,45 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);//load the layout
 
         //**MOBFOX***//
-        Banner banner = (Banner)findViewById(R.id.banner);
-        banner.setPublicationId(appHash);
 
-//optional - set listener to get notified when ad is loaded
-        banner.setWaterfallBannerListener(new Banner.Listener() {
+        banner = (Banner) findViewById(R.id.banner);
+        final Activity self = this;
 
+        banner.setListener(new BannerListener() {
             @Override
-            public void onAdLoaded() {
-                Log.d("waterfall", "ad loaded");
+            public void onBannerError(View view, Exception e) {
+                //Toast.makeText(self, e.getMessage(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
-            public void onAdNotFound() {
-                Log.d("waterfall", "d not found");
+            public void onBannerLoaded(View view) {
+                //Toast.makeText(self, "banner loaded", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onBannerClosed(View view) {
+                //Toast.makeText(self, "banner closed", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onBannerFinished(View view) {
+                // Toast.makeText(self, "banner finished", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onBannerClicked(View view) {
+                //Toast.makeText(self, "banner clicked", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public boolean onCustomEvent(JSONArray jsonArray) {
+                return false;
             }
         });
 
-//load next ad
-        banner.loadAd();
+
+        banner.setInventoryHash(appHash);
+        banner.load();
 
 
         // setup the refresh layout
@@ -257,7 +282,9 @@ public class MainActivity extends AppCompatActivity {
 
                 //load the css customizations
                 String css = "";
-                if (savedPreferences.getBoolean("pref_blackTheme", false)) { css += getString(R.string.blackCss); }
+                if (savedPreferences.getBoolean("pref_blackTheme", false)) {
+                    css += getString(R.string.blackCss);
+                }
                 if (savedPreferences.getBoolean("pref_fixedBar", true)) {
 
                     css += getString(R.string.fixedBar);//get the first part
@@ -273,7 +300,9 @@ public class MainActivity extends AppCompatActivity {
                     css += ".flyout { max-height:" + barHeight + "px; overflow-y:scroll;  }";//without this doen-t scroll
 
                 }
-                if (savedPreferences.getBoolean("pref_hideSponsoredPosts", false)) { css += getString(R.string.hideSponsoredPost); }
+                if (savedPreferences.getBoolean("pref_hideSponsoredPosts", false)) {
+                    css += getString(R.string.hideSponsoredPost);
+                }
 
                 //apply the customizations
                 webViewFacebook.loadUrl("javascript:function addStyleString(str) { var node = document.createElement('style'); node.innerHTML = " +
@@ -302,7 +331,7 @@ public class MainActivity extends AppCompatActivity {
             // for >= Lollipop, all in one
             public boolean onShowFileChooser(
                     WebView webView, ValueCallback<Uri[]> filePathCallback,
-                    WebChromeClient.FileChooserParams fileChooserParams) {
+                    FileChooserParams fileChooserParams) {
 
                 /** Request permission for external storage access.
                  *  If granted it's awesome and go on,
@@ -389,7 +418,7 @@ public class MainActivity extends AppCompatActivity {
 
                     mCapturedImageURI = Uri.fromFile(file); // save to the private variable
 
-                    final Intent captureIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                    final Intent captureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                     captureIntent.putExtra(MediaStore.EXTRA_OUTPUT, mCapturedImageURI);
                     //captureIntent.putExtra(MediaStore.EXTRA_SCREEN_ORIENTATION, ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
@@ -407,9 +436,12 @@ public class MainActivity extends AppCompatActivity {
             }
 
             // openFileChooser for other Android versions
-            /** may not work on KitKat due to lack of implementation of openFileChooser() or onShowFileChooser()
-             *  https://code.google.com/p/android/issues/detail?id=62220
-             *  however newer versions of KitKat fixed it on some devices */
+
+            /**
+             * may not work on KitKat due to lack of implementation of openFileChooser() or onShowFileChooser()
+             * https://code.google.com/p/android/issues/detail?id=62220
+             * however newer versions of KitKat fixed it on some devices
+             */
             public void openFileChooser(ValueCallback<Uri> uploadMsg, String acceptType, String capture) {
                 openFileChooser(uploadMsg, acceptType);
             }
@@ -433,6 +465,9 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     // app is already running and gets a new intent (used to share link without open another activity
@@ -584,9 +619,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             }
             case R.id.share: {//share this app
-                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                Intent sharingIntent = new Intent(Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, getResources().getString(R.string.downloadThisApp));
+                sharingIntent.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.downloadThisApp));
                 startActivity(Intent.createChooser(sharingIntent, getResources().getString(R.string.share)));
 
                 Toast.makeText(getApplicationContext(), getResources().getString(R.string.thanks),
@@ -599,7 +634,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             case R.id.exit: {//open settings
-                android.os.Process.killProcess(android.os.Process.myPid());
+                android.os.Process.killProcess(Process.myPid());
                 System.exit(1);
                 return true;
             }
@@ -660,11 +695,52 @@ public class MainActivity extends AppCompatActivity {
             webViewFacebook.loadUrl(getString(R.string.urlFacebookMobile) + "?sk=h_nor");//load m.facebook.com
         }
     }
+
     private void refreshPage() {
         if (noConnectionError) {
             webViewFacebook.goBack();
             noConnectionError = false;
         } else webViewFacebook.reload();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Main Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app deep link URI is correct.
+                Uri.parse("android-app://net.bluecarrot.lite/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(client, viewAction);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Main Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app deep link URI is correct.
+                Uri.parse("android-app://net.bluecarrot.lite/http/host/path")
+        );
+        AppIndex.AppIndexApi.end(client, viewAction);
+        client.disconnect();
     }
 
 
@@ -746,6 +822,24 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
+    //need to add this so video ads will work properly
+    @Override
+    protected void onPause() {
+        super.onPause();
+        banner.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        banner.onResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        banner.onDestroy();
+    }
 
 
 }

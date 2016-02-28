@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:7:1-140:12
+ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:7:1-145:12
 	package
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:8:5-34
 		INJECTED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml
@@ -25,17 +25,6 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desa
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:19:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
 	android:name
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:13:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -44,12 +33,10 @@ ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\A
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:17:5-78
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:17:5-79
 	android:name
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.READ_PHONE_STATE
 ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:19:5-76
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:13:5-75
 	android:name
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:19:22-72
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -63,21 +50,10 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desa
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-nearby:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:19:5-79
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:15:5-79
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:19:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
 	android:name
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:20:22-76
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
 ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:23:5-98
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:18:5-98
 	android:name
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:23:22-95
 supports-screens
@@ -91,104 +67,9 @@ ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\A
 	android:anyDensity
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:27:9-34
 application
-ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:32:5-138:19
+ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:32:5-143:19
 MERGED from [com.android.support:appcompat-v7:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:20:5-30:19
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appstate:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:20:5-32:19
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-cast:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:mediarouter-v7:23.0.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-fitness:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-games:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-panorama:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-plus:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-vision:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wearable:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:21:5-43:19
 MERGED from [com.google.android.gms:play-services:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
@@ -401,132 +282,47 @@ ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\A
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:137:13-56
 	android:name
 		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:136:13-70
+meta-data#com.google.android.gms.version
+ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:140:9-142:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:142:13-66
+	android:name
+		ADDED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml:141:13-58
 uses-sdk
 INJECTED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appstate:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-cast:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:mediarouter-v7:23.0.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-fitness:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-location:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-games:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-location:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-panorama:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-plus:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-vision:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-wallet:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-wearable:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
@@ -656,8 +452,6 @@ MERGED from [com.android.support:support-v4:23.1.0] D:\Documentos\Desarrollo And
 		INJECTED from D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\src\main\AndroidManifest.xml
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:40:9-42:125
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
 	android:configChanges
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:28:13-122
 	android:theme
@@ -666,82 +460,12 @@ MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desar
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:27:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:9-31:52
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:9-31:52
 	android:theme
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:31:13-50
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:19-91
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:36:9-38:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:23:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:22:13-58
 activity#com.google.android.gms.appinvite.PreviewActivity
 ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:21:9-29:20
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:21:9-29:20
 	android:exported
 		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:23:17-40
 	android:theme
@@ -756,7 +480,6 @@ ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] D:\Documentos\
 		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:26:25-87
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:9-24:46
-MERGED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:9-24:46
 	android:excludeFromRecents
 		ADDED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:23:19-52
 	android:exported
@@ -767,7 +490,6 @@ MERGED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desa
 		ADDED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:19-72
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
 ADDED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:28:9-31:110
-MERGED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:28:9-31:110
 	android:exported
 		ADDED from [com.google.android.gms:play-services-auth:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:30:13-36
 	android:permission
@@ -779,30 +501,21 @@ ADDED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desar
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
 		ADDED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:23:8-40
 	android:required
 		ADDED from [com.google.android.gms:play-services-maps:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:24:8-31
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:21:5-82
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:21:5-82
 	android:name
 		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:21:22-79
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:22-65
 provider#com.google.android.gms.measurement.AppMeasurementContentProvider
 ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
 	android:authorities
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:29:11-76
@@ -812,8 +525,6 @@ MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Document
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:30:11-90
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
 ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
 	android:enabled
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:35:11-33
@@ -828,41 +539,9 @@ ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documento
 service#com.google.android.gms.measurement.AppMeasurementService
 ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
 	android:enabled
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:43:11-33
 	android:exported
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:44:11-35
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:42:11-82
-uses-permission#android.permission.SEND_SMS
-ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:19:5-67
-	android:name
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:19:22-64
-activity#com.adsdk.sdk.banner.InAppWebView
-ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:22:9-24:125
-	android:configChanges
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:24:13-122
-	android:name
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:23:13-61
-activity#com.adsdk.sdk.video.RichMediaActivity
-ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:25:9-28:51
-	android:hardwareAccelerated
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:28:13-48
-	android:configChanges
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:27:13-122
-	android:name
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:26:13-65
-activity#com.adsdk.sdk.mraid.MraidBrowser
-ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:29:9-31:125
-	android:configChanges
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:31:13-122
-	android:name
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:30:13-60
-activity#com.adsdk.sdk.nativeformats.NativeFormatInterstitialActivity
-ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:32:9-34:125
-	android:configChanges
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:34:13-122
-	android:name
-		ADDED from [com.adsdk.sdk:MobFox-Android-SDK:7.0.11] D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\exploded-aar\com.adsdk.sdk\MobFox-Android-SDK\7.0.11\AndroidManifest.xml:33:13-88
