@@ -2,8 +2,20 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <devices>
+          <device id="Nexus 5X" />
+        </devices>
+        <target>android-23</target>
+      </config>
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/SlimFacebookTheme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
@@ -14,18 +26,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83e3a3ae-68be-4fc6-aa29-dd092f24576e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/MobFox_Android_SDK_Core_1_2_6.xml" />
-      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\.idea\libraries\MobFox_Android_SDK_7_0_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\.idea\libraries\simple_xml_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\.idea\libraries\stax_1_2_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/net/bluecarrot/lite/test/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/net/bluecarrot/lite/test/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$MyHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity$MyHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/bluecarrot/lite/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/AdSdk_6_0_8.xml" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\.idea\libraries\MobFox_Android_SDK_Core_1_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\androidTest\debug\net\bluecarrot\lite\ApplicationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\androidTest\debug\net\bluecarrot\lite\test\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$bool.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\android\support\v7\appcompat\R.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\MainActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\MainActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\MainActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\MainActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\MainActivity$MyHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$bool.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$integer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$mipmap.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\R.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\ShowCreditsActivity$MyPreferenceFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\ShowCreditsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\ShowSettingsActivity$MyPreferenceFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\build\intermediates\classes\debug\net\bluecarrot\lite\ShowSettingsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app\libs\MobFox-Android-SDK-Core-1.2.6.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
@@ -33,19 +79,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/net/bluecarrot/lite/test/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/net/bluecarrot/lite/test/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/net/bluecarrot/lite/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/net/bluecarrot/lite/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/bluecarrot/lite/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/bluecarrot/lite/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/net/bluecarrot/lite/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/net/bluecarrot/lite/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FaceLite-For-Facebook.iws" />
@@ -65,7 +112,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state />
+        </projects_view>
       </state>
     </system>
   </component>
@@ -74,11 +123,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <folding>
+                <element signature="e#3528#3546#0" expanded="true" />
+                <element signature="e#5598#5624#0" expanded="true" />
+                <element signature="e#6070#6109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3547826">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -87,37 +150,25 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/bluecarrot/lite/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-48.482758">
-              <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="62" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4869#4870#0" expanded="true" />
-                <element signature="e#4913#4914#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6896553">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8275862">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9444444">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -1502,7 +1553,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook" value="4367697885076" />
+        <entry key="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook" value="4368834228950" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1709,7 +1760,7 @@
                             <option value="D:/sdk/extras/google/m2repository/com/google/android/gms/play-services-wearable/8.4.0/play-services-wearable-8.4.0.aar" />
                             <option value="D:/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar" />
                             <option value="D:/sdk/extras/android/m2repository/com/android/support/mediarouter-v7/23.0.0/mediarouter-v7-23.0.0.aar" />
-                            <option value="$MODULE_DIR$/libs/MobFox-Android-SDK-Core-1.2.6.jar" />
+                            <option value="$MODULE_DIR$/libs/AdSdk_6.0.8.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -1852,11 +1903,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.adsdk.sdk/MobFox-Android-SDK/7.0.11/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.adsdk.sdk/MobFox-Android-SDK/7.0.11/aapt/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/bluecarrot/lite/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
@@ -1877,7 +1928,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1903,8 +1954,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1940,8 +1989,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FaceLite-For-Facebook" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="FaceLite-For-Facebook" />
@@ -1961,7 +2022,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.114.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.135.101:5555" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Lollipop" />
     <property name="ExportApk.ApkPath" value="D:\Documentos\Desarrollo Android\FaceLite-For-Facebook\app" />
     <property name="ExportApk.Flavors" value="" />
@@ -2158,7 +2219,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49573562" order="6" side_tool="false" content_ui="tabs" />
@@ -2169,18 +2230,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.510661" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.47867805" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31590655" sideWeight="0.46995708" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.52132195" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31590655" sideWeight="0.53004295" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18123667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.4936034" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18079399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2191,6 +2251,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.4936034" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2211,6 +2272,59 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3528#3546#0" expanded="true" />
+            <element signature="e#5598#5624#0" expanded="true" />
+            <element signature="e#6070#6109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/bluecarrot/lite/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#3528#3546#0" expanded="true" />
+            <element signature="e#5598#5624#0" expanded="true" />
+            <element signature="e#6070#6109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2223,7 +2337,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#3528#3546#0" expanded="true" />
+            <element signature="e#5598#5624#0" expanded="true" />
+            <element signature="e#6070#6109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2298,7 +2416,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#3528#3546#0" expanded="true" />
+            <element signature="e#5598#5624#0" expanded="true" />
+            <element signature="e#6070#6109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2373,7 +2495,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#3528#3546#0" expanded="true" />
+            <element signature="e#5598#5624#0" expanded="true" />
+            <element signature="e#6070#6109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2490,43 +2616,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6896553">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8275862">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/bluecarrot/lite/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-48.482758">
-          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="62" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4869#4870#0" expanded="true" />
-            <element signature="e#4913#4914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="e#3528#3546#0" expanded="true" />
+            <element signature="e#5598#5624#0" expanded="true" />
+            <element signature="e#6070#6109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3547826">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9444444">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

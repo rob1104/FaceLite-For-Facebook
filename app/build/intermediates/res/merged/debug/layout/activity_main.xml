@@ -21,14 +21,17 @@ SlimSocial for Facebook is an Open Source app realized by Leonardo Rignanese
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
-    <com.mobfox.sdk.Banner
-        android:id="@+id/banner"
-
-        android:layout_weight="1"
-        android:layout_below="@id/swipe_container"
-        android:layout_width="300dp"
-        android:layout_height="0dp"
-        android:layout_centerHorizontal="true"
-        />
+    <com.adsdk.sdk.banner.AdView
+        android:id="@+id/mobFoxView"
+        android:layout_width="match_parent"
+        android:background="#FFF"
+        android:layout_height="50dp"
+        request_url="http://my.mobfox.com/request.php"
+        location="true"
+        animation="true"
+        publisherId="3e1014b9d3482030ee69797201a34da9"
+        adspaceStrict="true"
+        adspaceHeight="50"
+        adspaceWidth="320"  />
 </LinearLayout>
 <!-- From: file:/D:/Documentos/Desarrollo%20Android/FaceLite-For-Facebook/app/src/main/res/layout/activity_main.xml -->

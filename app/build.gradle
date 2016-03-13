@@ -7,10 +7,10 @@ android {
 
     defaultConfig {
         applicationId "net.bluecarrot.lite"
-        minSdkVersion 16
+        minSdkVersion 14
         targetSdkVersion 23
-        versionCode 25
-        versionName "2.0.5"
+        versionCode 26
+        versionName "2.0.6"
     }
     buildTypes {
         release {

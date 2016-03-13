@@ -2214,7 +2214,6 @@ containing a value of this type.
         public static final int android_pay_light_with_border=0x7f0f0040;
         public static final int art=0x7f0f0080;
         public static final int auto=0x7f0f002a;
-        public static final int banner=0x7f0f0079;
         public static final int beginning=0x7f0f001a;
         public static final int book_now=0x7f0f0037;
         public static final int buttonPanel=0x7f0f0052;
@@ -2273,6 +2272,7 @@ containing a value of this type.
         public static final int media_route_volume_layout=0x7f0f0083;
         public static final int media_route_volume_slider=0x7f0f0084;
         public static final int middle=0x7f0f001c;
+        public static final int mobFoxView=0x7f0f0079;
         public static final int monochrome=0x7f0f0046;
         public static final int multiply=0x7f0f0014;
         public static final int never=0x7f0f0025;

@@ -674,7 +674,6 @@ int id android_pay_light 0x7f0f003f
 int id android_pay_light_with_border 0x7f0f0040
 int id art 0x7f0f0080
 int id auto 0x7f0f002a
-int id banner 0x7f0f0079
 int id beginning 0x7f0f001a
 int id book_now 0x7f0f0037
 int id buttonPanel 0x7f0f0052
@@ -733,6 +732,7 @@ int id media_route_list 0x7f0f007a
 int id media_route_volume_layout 0x7f0f0083
 int id media_route_volume_slider 0x7f0f0084
 int id middle 0x7f0f001c
+int id mobFoxView 0x7f0f0079
 int id monochrome 0x7f0f0046
 int id multiply 0x7f0f0014
 int id never 0x7f0f0025

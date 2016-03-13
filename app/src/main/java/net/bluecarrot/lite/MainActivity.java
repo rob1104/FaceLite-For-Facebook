@@ -40,8 +40,7 @@ import android.provider.MediaStore;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.mobfox.sdk.Banner;
-import com.mobfox.sdk.BannerListener;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -57,7 +56,7 @@ import org.json.JSONArray;
 
 public class MainActivity extends AppCompatActivity {
 
-    private com.mobfox.sdk.Banner banner;
+
     private String appHash = "3e1014b9d3482030ee69797201a34da9";
 
     SwipeRefreshLayout swipeRefreshLayout;//the layout that allows the swipe refresh
@@ -108,44 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
         //**MOBFOX***//
 
-        banner = (Banner) findViewById(R.id.banner);
-        final Activity self = this;
 
-        banner.setListener(new BannerListener() {
-            @Override
-            public void onBannerError(View view, Exception e) {
-                //Toast.makeText(self, e.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onBannerLoaded(View view) {
-                //Toast.makeText(self, "banner loaded", Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onBannerClosed(View view) {
-                //Toast.makeText(self, "banner closed", Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onBannerFinished(View view) {
-                // Toast.makeText(self, "banner finished", Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onBannerClicked(View view) {
-                //Toast.makeText(self, "banner clicked", Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public boolean onCustomEvent(JSONArray jsonArray) {
-                return false;
-            }
-        });
-
-
-        banner.setInventoryHash(appHash);
-        banner.load();
 
 
         // setup the refresh layout
@@ -822,24 +784,6 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
-    //need to add this so video ads will work properly
-    @Override
-    protected void onPause() {
-        super.onPause();
-        banner.onPause();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        banner.onResume();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        banner.onDestroy();
-    }
 
 
 }
